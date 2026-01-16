@@ -51,3 +51,44 @@ print (str(a) + b)
 c= 20.5
 print (type(c))
 print (a+c)
+print ("-----------------------------------")
+x = "awesome"
+def myfunc():
+    print ("python is " + x)
+myfunc()
+h = "fantatic"
+print (h)
+def mychoose():
+    global h  
+    h = "Duc Huynh dep trai"
+    print ("Toi la ai: " + h)
+mychoose()
+print (h)
+a=1
+b=10000000000000000000000000000 
+c=-10000000000000000000000000000
+d=3.14
+e=-99999999.4827461234
+f=837475j
+g=2348j
+print (type(a)); print (a)
+print (type(b)); print (b)
+print (type(c)); print (c)
+print (type(d)); print (d)
+print (type(e)); print (e)
+print (type(f)); print (f)
+print (type(g)); print (g)
+a=float(a)
+b=float(b)
+c=int(c)
+d=int(d)
+e=int(e)
+f=complex(f)
+g=complex(g)
+print (type(a)); print (a)
+print (type(b)); print (b)
+print (type(c)); print (c)
+print (type(d)); print (d)
+print (type(e)); print (e)
+print (type(f)); print (f)
+print (type(g)); print (g)
