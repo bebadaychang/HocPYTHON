@@ -1,0 +1,53 @@
+print ("Ngay thu nhat hoc python")
+print ("Hoc ve bien, cach print, cau lenh if/else")
+print ("-----------------------------------")
+#Bien 
+a=27
+b=5
+c=2006
+d = "Hello Anh Ba Bip"
+e = a + b
+print ( d , "sinh ngay " , a , b, c, "phep tinh don gian a+b ", e )
+if  5 > 2 : 
+    print ("Anh ba bip dep trai")
+else : 
+    print ("anh ba bip khong dep trai")
+print ("-----------------------------------")
+print ("moi ban nhap 1 so tu nhien :")
+g = 2
+print ("ban vua nhap so : ", g)
+print ("moi ban nhap so thu 2 : ")
+h= 5
+print ("ban vua nhap so thu 2 la : ", h)
+if g > h: 
+    print ("so ban nhap thu nhat lon hon so thu 2 ", g , ">" , h , "Duc Huynh qua dep trai")
+else : 
+    print ("so ban nhap thu 2 ln hon so thu nhat ", h , ">" , g , "Duc Huynh van rat dep trai" )
+print (3500000 + 2500000)
+x=5
+x="hello Huynh" 
+print (x)
+X=10 
+x=20 
+print (X)
+print (x)
+print ("-----------------------------------")
+x = y = z = "Duc Huynh dep trai"
+print (x)
+print (y)
+print (z) 
+Fruits = [ "apple ", "banana " , "Cherry"]
+u ,i ,o = Fruits 
+print (u)
+print (i) ; print (o)
+print ("-----------------------------------")
+a = 10 
+b = "Duc Huynh "
+print (a,b)
+print (type(a))
+print (type(b))
+print (a,",", b )
+print (str(a) + b)
+c= 20.5
+print (type(c))
+print (a+c)
