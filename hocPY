@@ -92,3 +92,205 @@ print (type(d)); print (d)
 print (type(e)); print (e)
 print (type(f)); print (f)
 print (type(g)); print (g)
+import random
+print (random.randrange(1,10))
+a = "Anh Huynh dep trai vcl luon"
+print (a[6])
+for x in "banana":
+    print (x)
+print (len(x))
+b = "Duc Huynh la so 1"
+print (b[0:9])
+print (len(b))
+print (b.strip())
+print (b.lower())
+print (b.upper())
+print (b.replace("Duc Huynh", "Anh Ba Bip"))
+print (b.split(" "))
+print ("-----------------------------------")
+txt = "The best things in life are free!"
+print ("free" in txt)
+if "free" in txt:
+    print ("yes, 'free' is present.")
+if "expensive" not in txt:
+    print ("no, 'expensive' is not present.")
+print ("-----------------------------------")
+v = "Tran Ha Duc Huynh dep trai khoai to"
+print (v[:10])
+print (v[1:])
+print (v[-15:-10])
+print ("-----------------------------------")
+a= "hello world"
+b = "Duc Huynh" 
+c = a + " " + b 
+print (c)
+age = 20 
+#txt = "My name is Huynh, I am " + age 
+#print (txt)
+txt1 = f"My name is Be. I am {age}"
+print (txt1)
+Gia_ban = 30000000
+rau = f"Rau cai {Gia_ban} vnd"
+print (rau) 
+khoai = f"Khoai tay to {Gia_ban:.2f} vnd"
+print (khoai)
+khoailang = f"Khoai lang to {20*8} vnd"
+print (khoailang)
+txt2 = "we are the so called \"Vikings\" from the north. " 
+print (txt2)
+print (bool ("Huy ngu"))
+print (bool(15))
+g = "Huy ngu"
+h = 5 
+print (bool(g))
+print (bool (h)) 
+bool ("abc")
+bool (123)
+bool ([" apple", "cherry" , "banana " ])
+print ("-----------------------------------")
+class myclass():
+    def __len__(self):
+        return 0
+
+myobj = myclass()
+print(bool(myobj))
+print ("-----------------------------------")
+#ngày 24/01/2026
+H = 200 
+K= 100 
+print (H > K )
+print (H < K )
+print (H == K )
+print (H + K)
+print ( H !=K ) 
+print (H -K )
+print (H * K )
+print (H / K ) 
+print (H % K)
+print ( H // K ) 
+print ( H ** K) 
+print ("-----------------------------------")
+numbers = [1, 2, 3, 4, 5 ] 
+count = len(numbers)
+if count > 3:
+    print(f"list has {count} elements.")
+if (count := len(numbers)) > 7 : 
+    print (f"list has {count} elements. ")
+else: 
+    print (f"list has not more than 7 elements, it has {count} elements. ")
+print ("-----------------------------------")
+x=16
+print (x > 0 and x <20 )
+print (x > 0 or x < 20 )
+print (x > 0 or x < 15 )
+print (not (x > 0 and x< 20))
+print (not (x > 0 and x< 15))
+print ("-----------------------------------")
+x = ["apple" , "cherry", "banana"]
+y = ["apple" , "cherry", "banana"]
+z = x 
+print (x is z)
+print (x is y)
+print ( x is not y)
+print ( x is not z ) 
+h = [1,2,3,4,5]
+k=[1,2,3,4,5] 
+print (h==k)
+print (h is k) 
+print (h is not k)
+print ("-----------------------------------")
+print (" LIST " ) 
+print ("-----------------------------------")
+list1 = [ "dog" , "cat" , "bunny" ] 
+list2 = [1,2,3,4,5]
+list3= [True , False , True ] 
+list4 = ["monkey" , 10 , True , "men"]
+print (list1) 
+print (list2)
+print (list3)
+print (list4)
+print ("-----------------------------------")
+print (type(list1))
+print (type(list2))
+print (type(list3)) 
+print (type(list4))
+print ("-----------------------------------")
+print (len(list1))
+print (len(list2))
+print (len(list3))  
+print (len(list4))
+print ("-----------------------------------")
+print (list1[0])
+print (list2[1])
+print (list3[2])
+print (list4[3])
+print ("-----------------------------------")
+print (list1[-1])
+print (list2[-2])
+print (list3[-3])
+print (list4[-4])
+print ("-----------------------------------")
+print (list1[1:3])
+print (list2[2:5])
+print (list3[0:2])
+print (list4[1:4])
+print ("-----------------------------------")
+print (list1[:2])
+print (list2[:3])
+print (list3[:2])
+print (list4[:3])
+print ("-----------------------------------")
+list1 = [ "dog" , "cat" , "bunny" ] 
+list2 = [1,2,3,4,5]
+list3= [True , False , True ] 
+list4 = ["monkey" , 10 , True , "men"]
+list1[1] = "mouse" 
+list2.insert(2, 4.5)
+list3.append(False)
+list4.remove ("men")
+print (list1) 
+print (list2) 
+print (list3) 
+print (list4)
+print ("-----------------------------------")
+list1.extend(list2)
+print (list1)
+list2.pop()
+print (list2)
+list3.clear()
+print (list3)
+del list4
+print ("list4 da bi xoa")
+print ("-----------------------------------")
+list1.pop(3)
+print (list1) 
+list2.sort()
+print (list2) 
+list2.remove(1)
+del list2[:2]
+print (list2)
+print ("-----------------------------------")
+list3 = ["Huynh", "Uyen", "Anh", "Ngan", "Ngoc", "Nhi", "Hang"]
+for x in list3: 
+    print (x)
+print ("-----------------------------------")
+for h in range (len(list3)):
+  
+    print (list3[h])
+print ("-----------------------------------")
+u=0
+while u < len(list3):
+    print (list3[u])
+    u +=1
+print ("-----------------------------------")
+for i, x in enumerate (list3): 
+    print (i, x)
+print ("-----------------------------------")
+fakelist3 =[]
+for v in list3: 
+    if "h" in v:
+        fakelist3.append(v)
+        print (fakelist3)
+print ("-----------------------------------")
+newlist3 = [j for j in list3 if "g" in j]
+print (newlist3)
